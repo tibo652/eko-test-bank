@@ -136,6 +136,37 @@ st.markdown("""
 st.markdown("""<meta name="apple-mobile-web-app-capable" content="yes"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">""", unsafe_allow_html=True)
 
 # -----------------------------------------------------------------------------
+# FİNAL SINAVI DUYURUSU
+# -----------------------------------------------------------------------------
+st.markdown("""
+<div style="
+    border-left: 4px solid #FF4B4B;
+    background-color: rgba(255, 75, 75, 0.08);
+    padding: 14px 18px;
+    border-radius: 8px;
+    margin-bottom: 18px;
+    line-height: 1.6;
+">
+    <div style="font-weight: 700; font-size: 1.05rem; margin-bottom: 4px;">
+        📅 EKO201E Final Sınavı
+    </div>
+    <div>
+        🇹🇷 EKO201E Final sınavı (yüz yüze) <b>13 Ağustos 2026, 09:00</b>'da yapılacaktır.
+        Hazırlığınızda kolaylıklar, sınavda başarılar dileriz. 🎓
+    </div>
+    <div style="margin-top: 6px;">
+        🇬🇧 EKO201E Final (Face-to-face) will be held on <b>13 August 2026, 09:00</b>.
+        Good luck with your preparation and the exam. 🎓
+    </div>
+    <div style="margin-top: 8px; font-size: 0.9rem;">
+        🔗 <a href="https://econ.itu.edu.tr/haberdetay/2026/07/29/eko201e-final-classes-and-chapters-2026-summer"
+              target="_blank" rel="noopener noreferrer" style="color: #FF4B4B;">Resmi duyuru / Official announcement</a>
+    </div>
+</div>
+""", unsafe_allow_html=True)
+
+
+# -----------------------------------------------------------------------------
 # SESSION STATE
 # -----------------------------------------------------------------------------
 if 'all_questions' not in st.session_state: st.session_state.all_questions = []
